@@ -1,0 +1,42 @@
+{
+  "$schema": "https://github2.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+ 
+  "logo" : {
+	"color": {
+		"1": "white",
+		"2": "magenta"
+	}
+  },
+
+  "display": {
+    "color": {
+       "title": "magenta",
+       "keys": "magenta"
+    }
+  },
+
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "wmtheme",
+    "theme",
+    "icons",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "localip",
+    "poweradapter",
+    "break"
+  ]
+}
