@@ -17,13 +17,6 @@
     "interval": 60
   },
   {
-    "module": "network",
-    "format": "{essid} ({signalStrength}%) ",
-    "format-disconnected": "Disconnected ⚠",
-    "tooltip": true,
-    "interval": 5
-  },
-  {
     "module": "pulseaudio",
     "format": "{volume}% {icon}",
     "format-muted": "Muted 🔇",

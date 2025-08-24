@@ -2,15 +2,14 @@
 
 # --- CONFIGURATION ---
 # Directory where your wallpapers are stored
-WALLPAPER_DIR="$HOME/Pictures/wallpapers/Static-Wallpapers"
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers/Active"
 
 # The name of the theme you created in oomox-gui
 #THEME_NAME="arc-dark"
 
 # The transition effect for swww
-TRANSITION_TYPE="wipe"
+TRANSITION_TYPE="any"
 # --- END OF CONFIGURATION ---
-
 
 echo "--- Starting Theme Update ---"
 

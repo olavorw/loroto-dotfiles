@@ -1,7 +1,12 @@
 {
-    "modules-left": ["custom/power", "hyprland/workspaces"],
+    
+    "height": 32,
+    "width": 2000,
+    "margin-top": 10,
+
+    "modules-left": ["custom/power", "hyprland/workspaces", "window"],
     // "modules-center": [],
-    "modules-right": ["tray", "bluetooth", "network", "battery", "pulseaudio", "clock"],
+    "modules-right": ["tray", "bluetooth", "battery", "pulseaudio", "clock"],
 
     "autohide": true,
 
@@ -32,19 +37,11 @@
         "on-click": "blueman-manager",
     },
 
-    "network": {
-        "format-wifi": "  {essid}",
-        "format-ethernet": "  Ethernet",
-        "format-linked": "  Linked (No IP)",
-        "format-disconnected": "  Disconnected",
-        "tooltip": false,
-    },
-
     "battery": {
         "states": {
             "good": 85,
             "warning": 30,
-            "critical": 15
+            "critical": 16
         },
         "format": "{icon} {capacity}%",
         "format-full": "{icon} {capacity}%",
@@ -70,7 +67,7 @@
     },
 
     "clock": {
-        "format": "{:%a %m/%d/%Y ~ %H:%M}",
+        "format": "{:%a %m/%d/%Y %H:%M}",
         "tooltip-format": "<span size='15000'><tt>{calendar}</tt></span>",
         "calendar": {
             "mode": "month",

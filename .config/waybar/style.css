@@ -8,6 +8,7 @@
     background-color: transparent;
     border-radius: 5px;
     min-height: 0;
+    padding: 0.5px;
 }
 
 window,
@@ -16,12 +17,13 @@ tooltip {
 }
 
 #waybar {
-    background: alpha(@background, 0.6);
-    border-radius: 0;
+    background: alpha(@background, 0.5);
+    border-radius: 15;
+    border: 2px solid @foreground;
 }
 
 #workspaces {
-    margin: 1px 0;
+    margin: 2 0;
 }
 
 #workspaces button {
@@ -30,7 +32,7 @@ tooltip {
     padding: 0 5px;
 }
 #workspaces button:hover {
-    color: @foreground;
+    color: @color2;
     transition: none;
     border-bottom: 1px solid @color1;
     
@@ -38,14 +40,14 @@ tooltip {
 }
 
 #workspaces button.active {
-    color: @color1;
-    border: 2px solid @color1;
+    color: @color2;
+    border: 2px solid @color2;
     padding: 0 8px;
     margin: 0 2px;
 }
 
 #workspaces button.urgent {
-    background-color: @color1;
+    background-color: @color2;
     padding: 0 8px;
 }
 
