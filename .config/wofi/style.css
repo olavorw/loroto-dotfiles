@@ -1,9 +1,7 @@
 @import url ("/home/olavorw/.cache/wal/colors-waybar.css");
 
-/* Catppuccin Mocha colors are assumed from your theme */
 window {
   margin: 5px;
-  /* Use the same transparent base as Waybar for the acrylic effect */
   background-color: alpha(@background, 0.6);
   border-radius: 20px;
   border: 2px solid @foreground; /* surface1 */
