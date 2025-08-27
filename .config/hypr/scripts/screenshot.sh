@@ -11,8 +11,8 @@ FILENAME="${SAVE_DIR}/$(date +'%Y-%m-%d_%Hh%Mm%Ss').png"
 # The 'if' statement handles the case where you cancel the selection (e.g., by pressing Escape).
 if grim -g "$(slurp)" "${FILENAME}"; then
   # If grim successfully saved the file, then copy that file to the clipboard.
-  wl-copy < "${FILENAME}"
-  
+  wl-copy <"${FILENAME}"
+
   # Send a single notification confirming both actions are complete.
   notify-send "Screenshot Taken" "Saved to file and copied to clipboard."
 else
