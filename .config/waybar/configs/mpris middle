@@ -38,7 +38,8 @@
 "modules-right": [
         //"mpris",
         //"custom/separator#dot-line",
-        "group/notify",	
+  "group/app_drawer",
+  "group/notify",	
 	"battery",
 	"custom/separator#blank",  
 	"group/audio",

@@ -27,16 +27,19 @@
 	"clock",
 	"custom/separator#blank",
 	"tray",
+  "hyprland/workspaces#kanji",
 	],
 
 "modules-center": [
-	"hyprland/workspaces#kanji",
+  "mpris",
+  "custom/cava_mviz",
 	],
 
 "modules-right": [
         //"mpris",
         //"custom/separator#dot-line",
-        "group/notify",	
+  "group/app_drawer",
+  "group/notify",    
 	"battery",
 	"custom/separator#blank",  
 	"group/audio",

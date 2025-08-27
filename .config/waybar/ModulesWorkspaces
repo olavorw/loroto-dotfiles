@@ -73,7 +73,7 @@
 	"all-outputs": true,
 	"format": "{icon}",
     "persistent-workspaces": {
-      "*": 10
+      "*": 0
 	},
 	"format-icons": {
 		"1": "一",
